@@ -3138,7 +3138,13 @@ ul.blog_pagination li a:hover {
     font-size: 20px;
     font-weight: 600;
   }
+  body{
+    overflow-x: hidden !important;
+  }
 
+  .call-to-action-area,#portfolio,#about{
+    overflow: hidden;
+  }
 
   @media only screen and (max-width: 1024px) {
     .about-content-part h2 {
@@ -3190,5 +3196,7 @@ ul.blog_pagination li a:hover {
 
                 .about-social ul {
                     display: flex;
+                    overflow-x: scroll;
+                    scrollbar-width: none;
                 }
    }
