@@ -3142,7 +3142,7 @@ ul.blog_pagination li a:hover {
     overflow-x: hidden !important;
   }
 
-  .call-to-action-area,#portfolio,#about{
+  .call-to-action-area,#portfolio,#about,.resume-area{
     overflow: hidden;
   }
 

@@ -8,7 +8,7 @@ const Summery = () => {
       <div className="container">
         <div className="row">
           {/* <!-- START ABOUT IMAGE DESIGN AREA --> */}
-          <div className="col-lg-4 setHeightHome">
+          <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12   setHeightHome">
             <SlideUp>
               <div className="about-image-part h-100">
                 <img src="/AbdullahNiaz.jpg" alt="About Me" />
@@ -17,7 +17,7 @@ const Summery = () => {
           </div>
           {/* <!-- / END ABOUT IMAGE DESIGN AREA -->
                     <!-- START ABOUT TEXT DESIGN AREA --> */}
-          <div className="col-lg-8">
+          <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
             <SlideUp>
               <div className="about-content-part">
                 <h2>I’m Abdullah Niaz, a Frontend Developer.</h2>
